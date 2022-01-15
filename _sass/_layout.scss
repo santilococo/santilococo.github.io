@@ -4,6 +4,7 @@
 
 body {
   padding-bottom: 70px;
+  // font-family: 'Fira Code';
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -29,7 +30,7 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   img {
-    width: 100%;
+    width: 90%;
   }
 }
 
