@@ -33,15 +33,10 @@ layout: default
             {{ content }}
           </div>
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
           {%- if page.social %}
+
+          <!-- Add some line breaks -->
+          <!-- <br><br> -->
           <!-- Social -->
           <div class="social">
             <div class="contact-icons">
