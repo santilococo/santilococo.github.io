@@ -2,4 +2,4 @@
 PRs are welcome.
 
 ## License <a name="license"></a>
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/santilococo/santilococo.github.io/blob/master/LICENSE)
