@@ -105,7 +105,6 @@ keep_files:
 plugins:
   - jekyll-archives
   - jekyll-email-protect
-  - jekyll-github-metadata
   - jekyll-imagemagick
   - jekyll-paginate-v2
   - jekyll-sitemap
