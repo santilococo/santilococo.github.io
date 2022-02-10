@@ -3,7 +3,7 @@ layout: page
 title: calrepo
 description: Personal Arch Linux package repository.
 github: https://github.com/santilococo/calrepo
-importance: 5
+importance: 4
 category: personal
 ---
 
