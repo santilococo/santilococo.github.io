@@ -123,7 +123,6 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 remove_HTML_comments: false
-beautify: false
 minify: true
 
 sass:
