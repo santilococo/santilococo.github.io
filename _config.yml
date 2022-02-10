@@ -25,33 +25,29 @@ impressum_path:
 navbar_fixed: true
 footer_fixed: true
 
-# Dimensions
 max_width: 800px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: false
+serve_schema_org: false
+og_image:
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: santilococo # your GitHub user name
-gitlab_username: santilococo # your GitLab user name
-linkedin_username: santilococo # your LinkedIn user name
-work_url: # work page URL
+github_username: santilococo
+gitlab_username: santilococo
+linkedin_username: santilococo
+work_url:
 
 contact_note:
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+google_analytics:
+google_site_verification:
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -183,7 +179,6 @@ imagemagick:
 enable_google_analytics:    false
 enable_panelbear_analytics: false
 enable_google_verification: false
-enable_bing_verification:   false
 enable_masonry:             true
 enable_math:                false
 enable_tooltips:            false
