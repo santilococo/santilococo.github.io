@@ -7,29 +7,16 @@ first_name: Santiago
 middle_name:
 last_name: Lo Coco
 email:
-# email: santilococo.01@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+description:
+footer_text:
+keywords:
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🐰 # the emoji used as the favicon
-url: https://slococo.com.ar # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-rss_icon: false
+lang: en
+icon: 🐰
+url: https://slococo.com.ar
+baseurl:
+last_updated: false
+impressum_path:
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -125,7 +112,6 @@ keep_files:
 plugins:
   - jekyll-archives
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-github-metadata
   - jekyll-imagemagick
   - jekyll-paginate-v2

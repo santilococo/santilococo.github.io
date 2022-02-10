@@ -13,6 +13,3 @@
             {%- if site.gitlab_username -%}
             <a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab"><i class="fab fa-gitlab"></i></a>
             {% endif %}
-            {%- if site.rss_icon -%}
-            <a href="{{ site.baseurl | prepend: site.url }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
-            {% endif %}
