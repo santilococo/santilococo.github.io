@@ -1,4 +1,3 @@
-# Source: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
 require 'htmlcompressor'
 
 module Jekyll
