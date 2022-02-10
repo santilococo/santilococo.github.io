@@ -5,7 +5,21 @@ layout: default
         <div class="post">
 
           <header class="post-header">
+            {% if page.github -%}
+            <div class="post-header">
+              <div style="float:left;">
+                <h1 class="post-title">{{ page.title }}</h1>
+              </div>
+              <div style="float:right;">
+                <div class="icon" data-toggle="tooltip" title="Code Repository">
+                  <a href="{{ page.github }}"><i class="fab fa-3x fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div style="clear: both;"></div>
+            {%- else -%}
             <h1 class="post-title">{{ page.title }}</h1>
+            {%- endif %}
             <p class="post-description">{{ page.description }}</p>
           </header>
 
