@@ -46,7 +46,7 @@ max_width: 800px
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
+
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
@@ -70,7 +70,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-# blog_name: blog  # your blog must have a name for it to show up in the nav bar
+# blog_name: blog
 # blog_description:
 # permalink: /blog/:year/:title/
 
@@ -98,10 +98,9 @@ collections:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: github
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -112,7 +111,6 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-# Includes & excludes
 include: ['_pages']
 exclude:
   - bin
