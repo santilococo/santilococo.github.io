@@ -124,7 +124,7 @@ github: [metadata]
 
 remove_HTML_comments: false
 beautify: false
-minify: false
+minify: true
 
 sass:
   style: compressed
