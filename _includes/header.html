@@ -1,7 +1,6 @@
 
     <header>
 
-      <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           {% if page.title != "about" -%}
@@ -9,12 +8,10 @@
               {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
-          <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}
           </div>
           {% endif %}
-          <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar top-bar"></span>
