@@ -1,1 +1,0 @@
-You must move these .md files to the `_posts` folder.
