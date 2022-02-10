@@ -11,7 +11,7 @@ category: personal
 
 [This][4] repo is supposed to be used as a submodule. So, if you already have a git repo with your dotfiles:
 
-```bash
+```
 git submodule add git@github.com:santilococo/sadedot.git
 git submodule update --init
 ```
@@ -26,7 +26,7 @@ You should note that all of these dotfiles (files or folders) will be symlinked 
 
 So, to run the script:
 
-```bash
+```
 sh scripts/bootstrap.sh
 ```
 
@@ -57,7 +57,7 @@ You can install `libnewt` or `dialog` for a better experience, but they are not 
 
 To keep the submodule up to date, you need to run:
 
-```bash
+```
 git submodule foreach git pull
 ```
 

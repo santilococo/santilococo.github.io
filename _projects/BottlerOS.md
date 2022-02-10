@@ -21,7 +21,7 @@ Si tiene otra distribución consulte cómo hacerlo.
 
 Para compilar todos los archivos se debe ejecutar el script `build.sh` (desde la carpeta raíz del proyecto). Note que usted podrá pasarle como argumento `buddy` si desea compilar con este memory manager (por defecto no compilará con este). Además, si quiere probar el OS con el teclado en español lo podrá hacer pasandole como argumento `spanish`. Por último, el parámetro `free` liberará la memoria (que haya sido obtenida mediante `malloc`) al terminar o hacer `kill` de un proceso.   
 
-```bash
+```
 ./build.sh
 ```
 
@@ -31,13 +31,13 @@ Este script hará un `make` en la carpeta de `Toolchain` y luego un `make` en la
 
 Ahora, usted podrá ejecutar BottlerOS haciendo:
 
-```bash
+```
 ./run.sh
 ```
 
 Si, en su defecto, usted quiere correr el OS desde windows lo podrá hacer con:
 
-```bash
+```
 ./run.bat
 ```
 
@@ -45,6 +45,6 @@ Si, en su defecto, usted quiere correr el OS desde windows lo podrá hacer con:
 
 En orden de realizar un análisis estático del sistema usted debe tener instalado [cppcheck](http://cppcheck.net/) y [pvs-studio](https://pvs-studio.com/). Luego, puede correrlos con:
 
-```bash
+```
 make test
 ```
