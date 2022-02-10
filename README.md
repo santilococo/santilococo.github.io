@@ -1,3 +1,14 @@
+## Installation
+
+First, you must install `Ruby` and `Bundler`.
+
+Then, to deploy the webpage locally you need to run run:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
 ## Contributing <a name="contributing"></a>
 PRs are welcome.
 
