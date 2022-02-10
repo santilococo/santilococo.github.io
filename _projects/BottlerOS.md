@@ -10,32 +10,32 @@ category: university
 
 ## Requisitos <a name="requisitos"></a>
 
-Debe instalar nasm, qemu, gcc, make. Estos se encuentran disponibles en el repositorio de la vasta mayoría de distribuciones de Linux/macOS.
+You must install `nasm`, `qemu`, `gcc` and `make`. These are available in the repository of the vast majority of Linux/macOS distributions.
 
 Debian/Ubuntu: `apt install nasm qemu gcc make`\
-macOS (con [homebrew](https://brew.sh/)): `brew install nasm qemu gcc make`
+macOS (with [homebrew](https://brew.sh/)): `brew install nasm qemu gcc make`
 
-Si tiene otra distribución consulte cómo hacerlo.
+If you have another distribution check how to do it. 
 
 ## Compilación <a name="compilación"></a>
 
-Para compilar todos los archivos se debe ejecutar el script `build.sh` (desde la carpeta raíz del proyecto). Note que usted podrá pasarle como argumento `buddy` si desea compilar con este memory manager (por defecto no compilará con este). Además, si quiere probar el OS con el teclado en español lo podrá hacer pasandole como argumento `spanish`. Por último, el parámetro `free` liberará la memoria (que haya sido obtenida mediante `malloc`) al terminar o hacer `kill` de un proceso.   
+To compile all the files, the `build.sh` script must be executed (from the root folder of the project). Note that you can pass `buddy` as an argument if you want to compile with this memory manager (it won't compile with it by default). Also, if you want to test the OS with the Spanish keyboard, you can do so by passing `spanish` as an argument. Lastly, the `free` parameter will free memory (that has been obtained via `malloc`) on terminating or `killing` a process. 
 
 ```
 ./build.sh
 ```
 
-Este script hará un `make` en la carpeta de `Toolchain` y luego un `make` en la carpeta `root` del proyecto. Luego, dependiendo del parámetro ingresado hará: `make all`, `make spanish`, `make buddy` o `make free`.
+This script will do a `make` on the `Toolchain` folder and then a `make` on the project's `root` folder. Then, depending on the parameter entered, it will do: `make all`, `make spanish`, `make buddy` or `make free`. 
 
 ## Ejecución <a name="ejecución"></a>
 
-Ahora, usted podrá ejecutar BottlerOS haciendo:
+Now, you will be able to run BottlerOS by doing:
 
 ```
 ./run.sh
 ```
 
-Si, en su defecto, usted quiere correr el OS desde windows lo podrá hacer con:
+If, instead, you want to run the OS from Windows, you can do so with: 
 
 ```
 ./run.bat
@@ -43,7 +43,7 @@ Si, en su defecto, usted quiere correr el OS desde windows lo podrá hacer con:
 
 ## Testeos <a name="tests"></a>
 
-En orden de realizar un análisis estático del sistema usted debe tener instalado [cppcheck](http://cppcheck.net/) y [pvs-studio](https://pvs-studio.com/). Luego, puede correrlos con:
+In order to perform a static analysis of the system you must have [cppcheck](http://cppcheck.net/) and [pvs-studio](https://pvs-studio.com/) installed. Then, you can run the tests with: 
 
 ```
 make test
