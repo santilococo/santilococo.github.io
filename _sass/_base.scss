@@ -345,6 +345,8 @@ blockquote {
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
+    z-index: 2;
+    position: relative;
   }
 
   h2.category {
@@ -357,6 +359,10 @@ blockquote {
   }
 }
 
+.github-icon {
+    z-index: 2;
+    position: relative;
+}
 
 // Publications
 

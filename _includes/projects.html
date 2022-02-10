@@ -1,9 +1,9 @@
 
     <div class="grid-item">
       {% if project.redirect -%}
-      <a href="{{ project.redirect }}">
+      <a href="{{ project.redirect }}" class="stretched-link">
       {%- else -%}
-      <a href="{{ project.url | relative_url }}">
+      <a href="{{ project.url | relative_url }}" class="stretched-link">
       {%- endif %}
         <div class="card hoverable">
           {%- if project.img %}
@@ -14,11 +14,10 @@
           <div class="card-body">
             <h2 class="card-title">{{ project.title }}</h2>
             <p class="card-text">{{ project.description }}</p>
-            <div class="row ml-1 mr-1 p-0" style="float: right">
               {%- if project.github -%}
-              <div class="github-icon">
+              <div class="github-icon" style="float: right;">
                 <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+                  <a href="{{ project.github }}" class="stretched-link"><i class="fab fa-lg fa-github gh-icon"></i></a>
                 </div>
                 {%- if project.github_stars -%}
                 <span class="stars" data-toggle="tooltip" title="GitHub Stars">
@@ -28,7 +27,6 @@
                 {%- endif %}
               </div>
               {%- endif %}
-            </div>
           </div>
         </div>
       </a>
