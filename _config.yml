@@ -47,32 +47,13 @@ google_analytics:
 google_site_verification:
 
 # -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-# blog_name: blog
-# blog_description:
-# permalink: /blog/:year/:title/
-
-# # Pagination
-# pagination:
-#   enabled: true
-
-# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
-
-# news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -103,7 +84,6 @@ keep_files:
   - .git
 
 plugins:
-  - jekyll-archives
   - jekyll-email-protect
   - jekyll-imagemagick
   - jekyll-paginate-v2
@@ -127,22 +107,6 @@ minify: true
 
 sass:
   style: compressed
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  enabled: [year, tags, categories]
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
-
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
