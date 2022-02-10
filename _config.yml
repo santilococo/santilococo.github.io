@@ -74,7 +74,7 @@ kramdown:
 
 include: ['_pages']
 exclude:
-  - bin
+  - .github/workflows/deploy.sh
   - Gemfile
   - Gemfile.lock
   - vendor
