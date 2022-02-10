@@ -8,16 +8,6 @@ github: https://github.com/slococo/BottlerOS
 category: university
 ---
 
-# BottlerOS
-
-BottlerOS es un sistema operativo.
-
-## Tabla de contenidos
-* [Requisitos](#requisitos)
-* [Compilación](#compilación)
-* [Ejecución](#ejecución)
-* [Testeos](#tests)
-
 ## Requisitos <a name="requisitos"></a>
 
 Debe instalar nasm, qemu, gcc, make. Estos se encuentran disponibles en el repositorio de la vasta mayoría de distribuciones de Linux/macOS.
