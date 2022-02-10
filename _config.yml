@@ -8,7 +8,6 @@ middle_name:
 last_name: Lo Coco
 email:
 description:
-footer_text:
 keywords:
 
 lang: en
@@ -23,8 +22,6 @@ impressum_path:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
-
 max_width: 800px
 
 # -----------------------------------------------------------------------------

@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<!-- _layouts/distill.html -->
 <html>
   <head>
     {%- include head.html %}
 
     {% include scripts/mathjax.html %}
-    <!-- Distill js -->
     <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
     {% if page._styles %}
-    <!-- Page/Post style -->
     <style type="text/css">
       {{ page._styles }}
     </style>
@@ -52,12 +49,10 @@
     }</script>
   </d-front-matter>
 
-  <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%} {%- unless site.footer_fixed -%}sticky-bottom-footer{%- endunless -%}">
+  <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%}">
 
-    <!-- Header -->
     {%- include header.html %}
 
-    <!-- Content -->
     <div class="post distill">
 
       <d-title>
@@ -95,9 +90,6 @@
       </d-appendix>
 
     </div>
-
-    <!-- Footer -->
-    {%- include footer.html %}
 
   </body>
 
