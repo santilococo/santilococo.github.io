@@ -13,4 +13,4 @@ bundle exec jekyll serve
 PRs are welcome.
 
 ## License <a name="license"></a>
-[MIT](https://github.com/santilococo/santilococo.github.io/blob/master/LICENSE)
+[MIT](https://github.com/santilococo/santilococo.github.io/blob/master/LICENSE.md)
