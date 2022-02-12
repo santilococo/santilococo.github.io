@@ -1,13 +1,4 @@
-/*******************************************************************************
- * Styles for the base elements of the theme.
- ******************************************************************************/
-@charset "UTF-8";
-html{
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
-}
-
- // Typography
+// Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
