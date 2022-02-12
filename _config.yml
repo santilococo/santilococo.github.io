@@ -43,7 +43,6 @@ work_url:
 
 contact_note:
 
-google_analytics:
 google_site_verification:
 
 # -----------------------------------------------------------------------------
@@ -133,8 +132,6 @@ imagemagick:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false
-enable_panelbear_analytics: false
 enable_google_verification: false
 enable_masonry:             true
 enable_math:                false
