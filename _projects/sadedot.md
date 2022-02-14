@@ -1,7 +1,7 @@
 ---
 layout: page
 title: sadedot
-description: Backup all your dotfiles (and easily deploy them on another machine).
+description: Backup and deploy your dotfiles.
 github: https://github.com/santilococo/sadedot
 importance: 2
 category: personal
