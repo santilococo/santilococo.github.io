@@ -133,7 +133,7 @@ imagemagick:
 # -----------------------------------------------------------------------------
 
 enable_google_verification: false
-enable_masonry:             true
+enable_masonry:             false
 enable_math:                false
 enable_tooltips:            false
 enable_darkmode:            true

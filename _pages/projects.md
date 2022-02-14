@@ -5,7 +5,7 @@ permalink: /projects/
 description: University and personal projects.
 nav: true
 display_categories: [university, personal]
-horizontal: false
+horizontal: true
 ---
 
 <div class="projects">
