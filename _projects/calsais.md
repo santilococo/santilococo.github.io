@@ -2,7 +2,7 @@
 layout: page
 title: calsais
 description: Arch Linux semi-automatic installation script.
-github: https://github.com/slococo/calsais
+github: https://github.com/santilococo/calsais
 importance: 1
 category: personal
 ---

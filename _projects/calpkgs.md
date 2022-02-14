@@ -2,7 +2,7 @@
 layout: page
 title: calpkgs
 description: My AUR packages. 
-github: https://github.com/slococo/calpkgs
+github: https://github.com/santilococo/calpkgs
 importance: 3
 category: personal
 ---
