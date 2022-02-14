@@ -1,8 +1,8 @@
 <div class="card-item col">
   {%- if project.redirect -%}
-  <a href="{{ project.redirect }}">
+  <a href="{{ project.redirect }}" class="stretched-link">
   {%- else -%}
-  <a href="{{ project.url | relative_url }}">
+  <a href="{{ project.url | relative_url }}" class="stretched-link">
   {%- endif -%}
     <div class="card hoverable">
       <div class="row g-0">
@@ -10,21 +10,19 @@
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
-            <div class="row ml-1 mr-1 p-1" style="float: right">
-              {%- if project.github -%}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
-                </div>
-                {%- if project.github_stars -%}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {%- endif -%}
+            {%- if project.github -%}
+            <div class="github-icon" style="margin-bottom: 10px;">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ project.github }}" class="stretched-link"><i class="fab fa-lg fa-github gh-icon"></i></a>
               </div>
+              {%- if project.github_stars -%}
+              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <i class="fas fa-star"></i>
+                <span id="{{ project.github_stars }}-stars"></span>
+              </span>
               {%- endif -%}
             </div>
+            {%- endif -%}
           </div>
         </div>
       </div>
