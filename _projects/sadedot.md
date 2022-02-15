@@ -7,7 +7,7 @@ importance: 2
 category: personal
 ---
 
-### Installation <a name="installation"></a>
+### Installation
 
 [This][4] repo is supposed to be used as a submodule. So, if you already have a git repo with your dotfiles:
 
@@ -18,7 +18,7 @@ git submodule update --init
 
 And if you don't, you can [fork][1] my dotfiles repo on github.
 
-### Usage <a name="usage"></a>
+### Usage
 
 You have to move all your dotfiles to a folder named `dotfiles` (see [my repo][3] for an example) and then the script will do the symbolic links. Doing it this way, you can now push them to your github repo (so you have a backup of them).
 
@@ -49,11 +49,11 @@ As an example, I will show [my repo][3] directories in a tree-like format (note 
     └── ...
 ```
 
-### Optional dependencies <a name="optdependencies"></a>
+### Optional dependencies
 
 You can install `libnewt` or `dialog` for a better experience, but they are not required.
 
-### Updating <a name="updating"></a>
+### Updating
 
 To keep the submodule up to date, you need to run:
 
