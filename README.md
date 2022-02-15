@@ -2,7 +2,7 @@
 
 First, you must install `Ruby` and `Bundler`.
 
-Then, to deploy the webpage locally, you need to run run:
+Then, to deploy the webpage locally, you need to run:
 
 ```bash
 bundle install
