@@ -1,5 +1,3 @@
-// Has to be in the head tag, otherwise a flicker effect will occur.
-
 let toggleTheme = (theme) => {
   if (theme == "dark") {
     setTheme("light");
@@ -19,11 +17,10 @@ let setTheme = (theme) =>  {
   }
   localStorage.setItem("theme", theme);
   
-  // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== 'undefined') {
     medium_zoom.update({
       background: getComputedStyle(document.documentElement)
-          .getPropertyValue('--global-bg-color') + 'ee',  // + 'ee' for trasparency.
+          .getPropertyValue('--global-bg-color') + 'ee',
     })
   }
 };
