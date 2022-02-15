@@ -1,3 +1,0 @@
-1. npx
-2. purgecss -css assets/css/notpurged/mdb.min.css --content _includes/*.html _includes/scripts/*.html _layouts/*.html _pages/*.md _projects/*.md _sass/* assets/js/*.js --output assets/css/mdb.min.css
-3. purgecss -css assets/css/notpurged/bootstrap.min.css --content _includes/*.html _includes/scripts/*.html _layouts/*.html _pages/*.md _projects/*.md _sass/* assets/js/*.js --output assets/css/bootstrap.min.css
