@@ -127,7 +127,6 @@ imagemagick:
   output_formats:
     webp: "-quality 75%"
 
-
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
@@ -140,14 +139,10 @@ enable_navbar_social:       false
 enable_project_categories:  true
 enable_medium_zoom:         false
 
-
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
 
-academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
 bootstrap:
   version: "4.6.1"
   integrity:
