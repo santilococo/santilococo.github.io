@@ -7,7 +7,7 @@ importance: 4
 category: personal
 ---
 
-## Usage <a name="usage"></a>
+## Usage
 
 First, you need to download and locally sign my `PGP` key:
 
