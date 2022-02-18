@@ -152,7 +152,7 @@
   font-display: swap;
 } */
 
-@font-face {
+/* @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -189,6 +189,46 @@
        url('../fonts/inter/inter-v7-latin-700.woff') format('woff'),
        url('../fonts/inter/inter-v7-latin-700.ttf') format('truetype'),
        url('../fonts/inter/inter-v7-latin-700.svg#Inter') format('svg');
+} */
+
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/source-sans/source-sans-pro-v18-latin-regular.eot');
+  src: local(''),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-regular.woff2') format('woff2'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-regular.woff') format('woff'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-regular.ttf') format('truetype'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-regular.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/source-sans/source-sans-pro-v18-latin-600.eot');
+  src: local(''),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-600.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-600.woff2') format('woff2'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-600.woff') format('woff'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-600.ttf') format('truetype'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-600.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/source-sans/source-sans-pro-v18-latin-700.eot');
+  src: local(''),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-700.woff2') format('woff2'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-700.woff') format('woff'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-700.ttf') format('truetype'),
+       url('../fonts/source-sans/source-sans-pro-v18-latin-700.svg#SourceSansPro') format('svg');
 }
 
 .material-icons {
