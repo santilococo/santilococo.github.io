@@ -14,8 +14,8 @@ social: true
 
 I am a software engineering student at [ITBA](https://www.itba.edu.ar) (Instituto Tecnológico de Buenos Aires).
 
-I am an active learner and I am very curious to discover new things.
+I am an active and curious learner. 
 
-I think curiosity is precisely what drives me to keep learning new things.
+I believe that curiosity is precisely what drives me to continue learning new things.
 
 I love creating new projects.

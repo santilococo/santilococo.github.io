@@ -12,6 +12,6 @@ robots.txt
 node_modules
 package.json
 package-lock.json
-assets/css/notpurged
+# assets/css/notpurged
 purgecss.txt
 _includes/dummy.html
