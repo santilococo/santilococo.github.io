@@ -192,7 +192,7 @@
 } */
 
 
-@font-face {
+/* @font-face {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
@@ -229,6 +229,45 @@
        url('../fonts/source-sans/source-sans-pro-v18-latin-700.woff') format('woff'),
        url('../fonts/source-sans/source-sans-pro-v18-latin-700.ttf') format('truetype'),
        url('../fonts/source-sans/source-sans-pro-v18-latin-700.svg#SourceSansPro') format('svg');
+} */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat/montserrat-v23-latin-regular.eot');
+  src: local(''),
+       url('../fonts/montserrat/montserrat-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat/montserrat-v23-latin-regular.woff2') format('woff2'),
+       url('../fonts/montserrat/montserrat-v23-latin-regular.woff') format('woff'),
+       url('../fonts/montserrat/montserrat-v23-latin-regular.ttf') format('truetype'),
+       url('../fonts/montserrat/montserrat-v23-latin-regular.svg#Montserrat') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat/montserrat-v23-latin-500.eot');
+  src: local(''),
+       url('../fonts/montserrat/montserrat-v23-latin-500.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat/montserrat-v23-latin-500.woff2') format('woff2'),
+       url('../fonts/montserrat/montserrat-v23-latin-500.woff') format('woff'),
+       url('../fonts/montserrat/montserrat-v23-latin-500.ttf') format('truetype'),
+       url('../fonts/montserrat/montserrat-v23-latin-500.svg#Montserrat') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat/montserrat-v23-latin-700.eot');
+  src: local(''),
+       url('../fonts/montserrat/montserrat-v23-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat/montserrat-v23-latin-700.woff2') format('woff2'),
+       url('../fonts/montserrat/montserrat-v23-latin-700.woff') format('woff'),
+       url('../fonts/montserrat/montserrat-v23-latin-700.ttf') format('truetype'),
+       url('../fonts/montserrat/montserrat-v23-latin-700.svg#Montserrat') format('svg');
 }
 
 .material-icons {
