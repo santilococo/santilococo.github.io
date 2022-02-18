@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Software engineer student</strong> @ <a href="https://www.itba.edu.ar">ITBA</a>.
+subtitle: <boldtext>Software engineer student</boldtext> @ <a href="https://www.itba.edu.ar">ITBA</a>.
 
 profile:
   align: right
