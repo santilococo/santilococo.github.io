@@ -1,15 +1,15 @@
             {%- if site.email -%}
-            <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:{{ site.email | encode_email }}" title="email" class="rel-1z"><i class="fas fa-envelope"></i></a>
             {% endif %}
             {%- if site.github_username -%}
-            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/{{ site.github_username }}" title="GitHub" class="rel-1z"><i class="fab fa-github"></i></a>
             {% endif %}
             {%- if site.linkedin_username -%}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" class="rel-1z"><i class="fab fa-linkedin"></i></a>
             {% endif %}
             {%- if site.work_url -%}
-            <a href="{{ site.work_url }}" title="Work"><i class="fas fa-briefcase"></i></a>
+            <a href="{{ site.work_url }}" title="Work" class="rel-1z"><i class="fas fa-briefcase"></i></a>
             {% endif %}
             {%- if site.gitlab_username -%}
-            <a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab"><i class="fab fa-gitlab"></i></a>
+            <a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab" class="rel-1z"><i class="fab fa-gitlab"></i></a>
             {% endif %}

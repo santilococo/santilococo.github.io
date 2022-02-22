@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <boldtext>Software engineer student</boldtext> @ <a href="https://www.itba.edu.ar">ITBA</a>.
+subtitle: <boldtext>Software engineer student</boldtext> @ <a href="https://www.itba.edu.ar" class="rel-1z">ITBA</a>.
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
 social: true
 ---
 
-I am a software engineering student at [ITBA](https://www.itba.edu.ar) (Instituto Tecnológico de Buenos Aires).
+I am a software engineering student at <a href="https://www.itba.edu.ar" class="rel-1z">ITBA</a> (Instituto Tecnológico de Buenos Aires).
 
 I am an active and curious learner. 
 
