@@ -14,9 +14,18 @@ layout: parse
   <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%}">
     {%- include header.html %}
 
+    {%- if page.title == "about" -%}
+    <div id="particles-js">
+    {% include scripts/particles.html %}
+      <div class="container mt-5">
+        {{ content }}
+      </div>
+    </div>
+    {%- else -%}
     <div class="container mt-5">
       {{ content }}
     </div>
+    {%- endif -%}
 
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
