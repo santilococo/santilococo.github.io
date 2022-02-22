@@ -1,11 +1,12 @@
 let toggleTheme = (theme) => {
   if (theme == "dark") {
     setTheme("light");
+    loadParticles("light")
   } else {
     setTheme("dark");
+    loadParticles("dark")
   }
 }
-
 
 let setTheme = (theme) =>  {
   transTheme();
@@ -46,3 +47,32 @@ let initTheme = (theme) => {
 
 
 initTheme(localStorage.getItem("theme"));
+
+let loadParticles = (theme) => {
+  var matches = document.baseURI.match(/\//g); 
+  var count = matches ? matches.length : 0;
+  if (count != 3)
+    return;
+  
+  if (!theme)
+    setParticles(localStorage.getItem("theme"))
+  else
+    setParticles(theme)
+}
+
+let setParticles = (theme) => {
+  if (theme == "dark") {
+    try {
+      particlesJS.load('particles-js', 'assets/json/particles-dark.json');
+    } catch(e) {
+      console.log('ERROR: particles-js is not loaded.')
+    }
+  }
+  else {
+    try {
+      particlesJS.load('particles-js', 'assets/json/particles-light.json');
+    } catch(e) {
+      console.log('ERROR: particles-js is not loaded.')
+    }
+  }
+}
