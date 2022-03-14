@@ -88,6 +88,12 @@ boldtext {
   }
 }
 
+@media (max-width: 600px) {
+  .prof-image {
+    display: none;
+  }
+}
+
 .post-description {
   margin-bottom: 1rem;
   font-size: 0.9rem;
