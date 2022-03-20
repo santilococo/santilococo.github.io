@@ -7,7 +7,7 @@ importance: 3
 category: personal
 ---
 
-[This][1] repo contains all the packages that I mantain (or would like to) in the [AUR][1].
+[This][1] repo contains all the packages that I mantain (or would like to) in the [AUR][2].
 
-[2]: https://github.com/slococo/calpkgs
-[1]: https://aur.archlinux.org/packages/?K=santilococo&SeB=m
+[1]: https://github.com/slococo/calpkgs
+[2]: https://aur.archlinux.org/packages/?K=santilococo&SeB=m
